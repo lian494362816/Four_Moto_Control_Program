@@ -1,0 +1,1184 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>243706896</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\i2c.c</file>
+      <file>$PROJ_DIR$\i2c.h</file>
+      <file>$PROJ_DIR$\led.c</file>
+      <file>$PROJ_DIR$\led.h</file>
+      <file>$PROJ_DIR$\moto.c</file>
+      <file>$PROJ_DIR$\moto.h</file>
+      <file>$PROJ_DIR$\uart0.c</file>
+      <file>$PROJ_DIR$\uart0.h</file>
+      <file>$PROJ_DIR$\uart1.c</file>
+      <file>$PROJ_DIR$\uart1.h</file>
+      <file>$PROJ_DIR$\multirotor_ahrs.c</file>
+      <file>$PROJ_DIR$\multirotor_ahrs.h</file>
+      <file>$PROJ_DIR$\multirotor_app.c</file>
+      <file>$PROJ_DIR$\multirotor_app.h</file>
+      <file>$PROJ_DIR$\multirotor_control.c</file>
+      <file>$PROJ_DIR$\multirotor_control.h</file>
+      <file>$PROJ_DIR$\Multirotor_radio.c</file>
+      <file>$PROJ_DIR$\multirotor_radio.h</file>
+      <file>$PROJ_DIR$\multirotor_rc.c</file>
+      <file>$PROJ_DIR$\multirotor_rc.h</file>
+      <file>$PROJ_DIR$\height_ctrl.c</file>
+      <file>$PROJ_DIR$\height_ctrl.h</file>
+      <file>$PROJ_DIR$\hmc5883.c</file>
+      <file>$PROJ_DIR$\hmc5883.h</file>
+      <file>$PROJ_DIR$\mpu6050.c</file>
+      <file>$PROJ_DIR$\mpu6050.h</file>
+      <file>$PROJ_DIR$\ultrasonic.c</file>
+      <file>$PROJ_DIR$\ultrasonic.h</file>
+      <file>$PROJ_DIR$\timer.c</file>
+      <file>$PROJ_DIR$\timer.h</file>
+      <file>$PROJ_DIR$\board_config.h</file>
+      <file>$PROJ_DIR$\include.h</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\type.h</file>
+      <file>$PROJ_DIR$\algorithm_filter.c</file>
+      <file>$PROJ_DIR$\algorithm_filter.h</file>
+      <file>$PROJ_DIR$\algorithm_math.c</file>
+      <file>$PROJ_DIR$\algorithm_math.h</file>
+      <file>$PROJ_DIR$\algorithm_quaternion.c</file>
+      <file>$PROJ_DIR$\algorithm_quaternion.h</file>
+      <file>$PROJ_DIR$\algorithm_sqlite.c</file>
+      <file>$PROJ_DIR$\algorithm_sqlite.h</file>
+      <file>$PROJ_DIR$\clock.c</file>
+      <file>$PROJ_DIR$\clock.h</file>
+      <file>$PROJ_DIR$\delay.c</file>
+      <file>$PROJ_DIR$\delay.h</file>
+      <file>$PROJ_DIR$\dma0_uart1_tx.c</file>
+      <file>$PROJ_DIR$\dma0_uart1_tx.h</file>
+      <file>$PROJ_DIR$\Flash.c</file>
+      <file>$PROJ_DIR$\Flash.h</file>
+      <file>$PROJ_DIR$\timer_B_Pwm_In.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\timer_B_Pwm_In.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\math.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\mpu6050.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\algorithm_filter.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Flash.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\dma0_uart1_tx.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\height_ctrl.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\dma0_uart1_tx.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\algorithm_quaternion.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\timer.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\timer_A1.r43</file>
+      <file>$TOOLKIT_DIR$\inc\msp430F5438A.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\timer_A1.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\clock.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\mpu6050.r43</file>
+      <file>$PROJ_DIR$\timer_B_Pwm_In.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart1.r43</file>
+      <file>$PROJ_DIR$\timer_A1.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\multirotor_app.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\multirotor_rc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\hmc5883.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart1.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\led.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\algorithm_math.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430xsfn.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\hmc5883.r43</file>
+      <file>$PROJ_DIR$\Debug\Exe\Graft_HT_Hawk_20160605.d43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\i2c.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart0.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\timer.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\multirotor_app.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\Multirotor_radio.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\xtgmath.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\led.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\timer_B_Pwm_In.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Graft_HT_Hawk_20160605.pbd</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\algorithm_quaternion.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\multirotor_control.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Multirotor_radio.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\delay.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\clock.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\algorithm_sqlite.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\timer_A0_Pwm_Out.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\multirotor_ahrs.r43</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430xsfn.h</file>
+      <file>$PROJ_DIR$\timer_A0_Pwm_Out.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\moto.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\multirotor_ahrs.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\multirotor_rc.r43</file>
+      <file>$PROJ_DIR$\timer_A1.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\delay.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\height_ctrl.pbi</file>
+      <file>$TOOLKIT_DIR$\config\lnk430F5438A.xcl</file>
+      <file>$PROJ_DIR$\Debug\Obj\moto.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\algorithm_filter.r43</file>
+      <file>$TOOLKIT_DIR$\config\multiplier32_loc2.xcl</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ymath.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ystdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Flash.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\algorithm_sqlite.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ultrasonic.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ultrasonic.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\algorithm_math.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\i2c.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\timer_A0_Pwm_Out.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\multirotor_control.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart0.pbi</file>
+      <file>$PROJ_DIR$\timer_A0_Pwm_Out.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\i2c.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62 119 108 1 33 31 25 7 94 87 70 80 84 120 100 83 118 30 3 49 23 5 9 47 29 27 21 39 35 41 37 13 11 19 15 17 45</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\led.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 91</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 75</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31 25 33 1 7 94 87 70 80 84 120 100 83 118 30 62 119 108 3 49 23 5 9 47 29 27 21 39 35 41 37 13 11 19 15 17</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 31 25 33 1 7 94 87 70 80 104 84 120 100 83 118 30 62 119 108 3 49 23 5 9 47 29 27 21 39 35 41 37 13 11 19 15 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\moto.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 114</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 106</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31 25 33 1 7 94 87 70 80 84 120 100 83 118 30 62 119 108 3 49 23 5 9 47 29 27 21 39 35 41 37 13 11 19 15 17</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 31 25 33 1 7 94 87 70 80 104 84 120 100 83 118 30 62 119 108 3 49 23 5 9 47 29 27 21 39 35 41 37 13 11 19 15 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uart0.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 129</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 82</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31 25 33 1 7 94 87 70 80 84 120 100 83 118 30 62 119 108 3 49 23 5 9 47 29 27 21 39 35 41 37 13 11 19 15 17</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 31 25 33 1 7 94 87 70 80 104 84 120 100 83 118 30 62 119 108 3 49 23 5 9 47 29 27 21 39 35 41 37 13 11 19 15 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uart1.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 74</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 67</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31 25 33 1 7 94 87 70 80 84 120 100 83 118 30 62 119 108 3 49 23 5 9 47 29 27 21 39 35 41 37 13 11 19 15 17</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 31 25 33 1 7 94 87 70 80 104 84 120 100 83 118 30 62 119 108 3 49 23 5 9 47 29 27 21 39 35 41 37 13 11 19 15 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\multirotor_ahrs.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 107</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 103</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31 25 33 1 7 94 87 70 80 84 120 100 83 118 30 62 119 108 3 49 23 5 9 47 29 27 21 39 35 41 37 13 11 19 15 17 52 117 90</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 31 25 33 1 7 94 87 70 80 104 84 120 100 83 118 30 62 119 108 3 49 23 5 9 47 29 27 21 39 35 41 37 13 11 19 15 17 52 117 90</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\multirotor_app.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 69</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 88</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31 25 33 1 7 94 87 70 80 84 120 100 83 118 30 62 119 108 3 49 23 5 9 47 29 27 21 39 35 41 37 13 11 19 15 17</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 31 25 33 1 7 94 87 70 80 104 84 120 100 83 118 30 62 119 108 3 49 23 5 9 47 29 27 21 39 35 41 37 13 11 19 15 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\multirotor_control.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 96</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 128</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31 25 33 1 7 94 87 70 80 84 120 100 83 118 30 62 119 108 3 49 23 5 9 47 29 27 21 39 35 41 37 13 11 19 15 17 52 117 90 45</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 31 25 33 1 7 94 87 70 80 104 84 120 100 83 118 30 62 119 108 3 49 23 5 9 47 29 27 21 39 35 41 37 13 11 19 15 17 52 117 90 45</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Multirotor_radio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31 25 33 1 7 94 87 70 80 84 120 100 83 118 30 62 119 108 3 49 23 5 9 47 29 27 21 39 35 41 37 13 11 19 15 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\multirotor_rc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 72</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 109</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31 25 33 1 7 94 87 70 80 84 120 100 83 118 30 62 119 108 3 49 23 5 9 47 29 27 21 39 35 41 37 13 11 19 15 17</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 31 25 33 1 7 94 87 70 80 104 84 120 100 83 118 30 62 119 108 3 49 23 5 9 47 29 27 21 39 35 41 37 13 11 19 15 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\height_ctrl.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 112</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31 25 33 1 7 94 87 70 80 84 120 100 83 118 30 62 119 108 3 49 23 5 9 47 29 27 21 39 35 41 37 13 11 19 15 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\hmc5883.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 73</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31 25 33 1 7 94 87 70 80 84 120 100 83 118 30 62 119 108 3 49 23 5 9 47 29 27 21 39 35 41 37 13 11 19 15 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\mpu6050.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 53</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 65</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31 25 33 1 7 94 87 70 80 84 120 100 83 118 30 62 119 108 3 49 23 5 9 47 29 27 21 39 35 41 37 13 11 19 15 17 45</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 31 25 33 1 7 94 87 70 80 104 84 120 100 83 118 30 62 119 108 3 49 23 5 9 47 29 27 21 39 35 41 37 13 11 19 15 17 45</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\ultrasonic.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 123</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 124</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31 25 33 1 7 94 87 70 80 84 120 100 83 118 30 62 119 108 3 49 23 5 9 47 29 27 21 39 35 41 37 13 11 19 15 17 45</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 31 25 33 1 7 94 87 70 80 104 84 120 100 83 118 30 62 119 108 3 49 23 5 9 47 29 27 21 39 35 41 37 13 11 19 15 17 45</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\timer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 85</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 60</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31 25 33 1 7 94 87 70 80 84 120 100 83 118 30 62 119 108 3 49 23 5 9 47 29 27 21 39 35 41 37 13 11 19 15 17</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 31 25 33 1 7 94 87 70 80 104 84 120 100 83 118 30 62 119 108 3 49 23 5 9 47 29 27 21 39 35 41 37 13 11 19 15 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 71</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 86</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62 119 108 43 45 7 94 87 70 80 84 120 100 83 118 31 25 33 1 30 3 49 23 5 9 47 29 27 21 39 35 41 37 13 11 19 15 17</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 62 119 108 43 45 7 94 87 70 80 104 84 120 100 83 118 31 25 33 1 30 3 49 23 5 9 47 29 27 21 39 35 41 37 13 11 19 15 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\algorithm_filter.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\algorithm_math.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\algorithm_quaternion.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 95</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\algorithm_sqlite.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 122</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\clock.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 64</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\delay.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 111</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\dma0_uart1_tx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 56</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Flash.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 121</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\timer_B_Pwm_In.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 92</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 51</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31 25 33 1 7 94 87 70 80 84 120 100 83 118 30 62 119 108 3 49 23 110 50 130 5 9 47 29 39 35 41 37 13 11 19 15 17</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 31 25 33 1 7 94 87 70 80 104 84 120 100 83 118 30 62 119 108 3 49 23 110 50 130 5 9 47 29 39 35 41 37 13 11 19 15 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\timer_A1.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 63</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 61</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31 25 33 1 7 94 87 70 80 84 120 100 83 118 30 62 119 108 3 49 23 5 9 47 29 39 35 41 37 13 11 19 15 17</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 31 25 33 1 7 94 87 70 80 104 84 120 100 83 118 30 62 119 108 3 49 23 110 50 130 5 9 47 29 39 35 41 37 13 11 19 15 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\Graft_HT_Hawk_20160605.d43</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 113 116 55 89 115 125 59 101 99 98 58 57 78 126 75 86 106 65 103 88 128 109 60 82 67 124 77</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\Graft_HT_Hawk_20160605.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 121 97 54 76 95 122 64 111 56 112 73 81 91 71 114 53 107 69 96 72 85 129 74 123</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\timer_A0_Pwm_Out.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 127</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 102</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31 25 33 1 7 94 87 70 80 84 120 100 83 118 30 62 119 108 3 49 23 110 50 130 5 9 47 29 39 35 41 37 13 11 19 15 17</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 31 25 33 1 7 94 87 70 80 104 84 120 100 83 118 30 62 119 108 3 49 23 110 50 130 5 9 47 29 39 35 41 37 13 11 19 15 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 79</file>
+        </tool>
+      </outputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs>
+      <file>$PROJ_DIR$\Release\Obj\algorithm_math.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\timer_A1.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\i2c.pbi</file>
+      <file>$PROJ_DIR$\Release\Exe\Graft_HT_Hawk_20160605.txt</file>
+      <file>$PROJ_DIR$\Release\Obj\multirotor_ahrs.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\uart0.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdarg.h</file>
+      <file>$PROJ_DIR$\Release\Obj\algorithm_quaternion.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\multirotor_rc.r43</file>
+      <file>$TOOLKIT_DIR$\inc\clib\math.h</file>
+      <file>$PROJ_DIR$\i2c.c</file>
+      <file>$PROJ_DIR$\i2c.h</file>
+      <file>$PROJ_DIR$\led.c</file>
+      <file>$PROJ_DIR$\led.h</file>
+      <file>$PROJ_DIR$\uart0.c</file>
+      <file>$PROJ_DIR$\uart0.h</file>
+      <file>$PROJ_DIR$\multirotor_ahrs.c</file>
+      <file>$PROJ_DIR$\multirotor_ahrs.h</file>
+      <file>$PROJ_DIR$\multirotor_app.c</file>
+      <file>$PROJ_DIR$\multirotor_app.h</file>
+      <file>$PROJ_DIR$\multirotor_rc.c</file>
+      <file>$PROJ_DIR$\multirotor_rc.h</file>
+      <file>$PROJ_DIR$\hmc5883.c</file>
+      <file>$PROJ_DIR$\hmc5883.h</file>
+      <file>$PROJ_DIR$\mpu6050.c</file>
+      <file>$PROJ_DIR$\mpu6050.h</file>
+      <file>$PROJ_DIR$\board_config.h</file>
+      <file>$PROJ_DIR$\include.h</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\type.h</file>
+      <file>$PROJ_DIR$\algorithm_filter.c</file>
+      <file>$PROJ_DIR$\algorithm_filter.h</file>
+      <file>$PROJ_DIR$\algorithm_math.c</file>
+      <file>$PROJ_DIR$\algorithm_math.h</file>
+      <file>$PROJ_DIR$\algorithm_quaternion.c</file>
+      <file>$PROJ_DIR$\algorithm_quaternion.h</file>
+      <file>$PROJ_DIR$\clock.c</file>
+      <file>$PROJ_DIR$\clock.h</file>
+      <file>$PROJ_DIR$\delay.c</file>
+      <file>$PROJ_DIR$\delay.h</file>
+      <file>$PROJ_DIR$\Flash.c</file>
+      <file>$PROJ_DIR$\Flash.h</file>
+      <file>$PROJ_DIR$\Release\Obj\uart0.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\main.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\algorithm_filter.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\multirotor_app.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\Graft_HT_Hawk_20160605.pbd</file>
+      <file>$PROJ_DIR$\timer_B_Pwm_In.h</file>
+      <file>$TOOLKIT_DIR$\inc\msp430F5438A.h</file>
+      <file>$PROJ_DIR$\timer_B_Pwm_In.c</file>
+      <file>$PROJ_DIR$\timer_A1.c</file>
+      <file>$PROJ_DIR$\timer_A0_Pwm_Out.c</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\timer_A1.h</file>
+      <file>$TOOLKIT_DIR$\config\lnk430F5438A.xcl</file>
+      <file>$TOOLKIT_DIR$\config\multiplier32_loc2.xcl</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$PROJ_DIR$\timer_A0_Pwm_Out.h</file>
+      <file>$PROJ_DIR$\Release\Obj\multirotor_app.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\multirotor_ahrs.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\Flash.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\i2c.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\algorithm_quaternion.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\timer_B_Pwm_In.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\algorithm_filter.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\timer_A0_Pwm_Out.r43</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl430xsf.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\hmc5883.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\multirotor_rc.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
+      <file>$PROJ_DIR$\Release\Obj\algorithm_math.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\mpu6050.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdio.h</file>
+      <file>$PROJ_DIR$\Release\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\clock.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\timer_A1.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\delay.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\hmc5883.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\clock.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\led.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\mpu6050.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\delay.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\timer_A0_Pwm_Out.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\timer_B_Pwm_In.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\Flash.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\led.r43</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\Release\Exe\Graft_HT_Hawk_20160605.txt</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 54 55 84 64 70 7 74 76 67 61 85 43 80 59 58 8 65 75 83 42 66</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\i2c.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 61</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48 56 52 11 29 27 25 15 72 6 69 33 26 19 13 41 23 17 53 47 57 21 35 31 39</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 48 56 52 11 29 27 25 15 72 6 69 33 26 19 13 41 23 17 53 47 57 21 35 31 39</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\led.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 79</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 85</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27 25 29 11 15 72 6 69 33 26 19 48 56 52 13 41 23 17 53 47 57 21 35 31</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 27 25 29 11 15 72 6 69 33 26 19 48 56 52 13 41 23 17 53 47 57 21 35 31</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uart0.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 42</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15 48 56 52 72 6 69</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 15 48 56 52 72 6 69</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\multirotor_ahrs.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 59</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27 25 29 11 15 72 6 69 33 26 19 48 56 52 13 41 23 17 53 47 57 21 35 31 9</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 27 25 29 11 15 72 6 69 33 26 19 48 56 52 13 41 23 17 53 47 57 21 35 31 9</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\multirotor_app.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 58</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27 25 29 11 15 72 6 69 33 26 19 48 56 52 13 41 23 17 53 47 57 21 35 31</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 27 25 29 11 15 72 6 69 33 26 19 48 56 52 13 41 23 17 53 47 57 21 35 31</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\multirotor_rc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 68</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 8</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27 25 29 11 15 72 6 69 33 26 19 48 56 52 13 41 23 17 53 47 57 21 35 31</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 27 25 29 11 15 72 6 69 33 26 19 48 56 52 13 41 23 17 53 47 57 21 35 31</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\hmc5883.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 77</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 67</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27 25 29 11 15 72 6 69 33 26 19 48 56 52 13 41 23 17 53 47 57 21 35 31</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 27 25 29 11 15 72 6 69 33 26 19 48 56 52 13 41 23 17 53 47 57 21 35 31</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\mpu6050.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 71</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 80</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27 25 29 11 15 72 6 69 33 26 19 48 56 52 13 41 23 17 53 47 57 21 35 31 39</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 27 25 29 11 15 72 6 69 33 26 19 48 56 52 13 41 23 17 53 47 57 21 35 31 39</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 73</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 43</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48 56 52 37 39 15 72 6 69 27 25 29 11 33 26 19 13 41 23 17 53 47 57 21 35 31</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 48 56 52 37 39 15 72 6 69 27 25 29 11 33 26 19 13 41 23 17 53 47 57 21 35 31</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\algorithm_filter.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 64</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27 25 29 11 15 72 6 69 33 26 19 48 56 52 13 41 23 17 53 47 57 21 35 31</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 27 25 29 11 15 72 6 69 33 26 19 48 56 52 13 41 23 17 53 47 57 21 35 31</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\algorithm_math.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 70</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27 25 29 11 15 72 6 69 33 26 19 48 56 52 13 41 23 17 53 47 57 21 35 31</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 27 25 29 11 15 72 6 69 33 26 19 48 56 52 13 41 23 17 53 47 57 21 35 31</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\algorithm_quaternion.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 7</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27 25 29 11 15 72 6 69 33 26 19 48 56 52 13 41 23 17 53 47 57 21 35 31 9</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 27 25 29 11 15 72 6 69 33 26 19 48 56 52 13 41 23 17 53 47 57 21 35 31 9</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\clock.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 78</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 74</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37 48 56 52 39</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 37 48 56 52 39</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\delay.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 76</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39 48 56 52</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 39 48 56 52</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Flash.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 60</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 84</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27 25 29 11 15 72 6 69 33 26 19 48 56 52 13 41 23 17 53 47 57 21 35 31</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 27 25 29 11 15 72 6 69 33 26 19 48 56 52 13 41 23 17 53 47 57 21 35 31</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Release\Obj\Graft_HT_Hawk_20160605.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 60 44 0 62 78 81 77 2 79 73 71 4 45 68 82 1 63 5</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\timer_B_Pwm_In.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 63</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 83</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27 25 29 11 15 72 6 69 33 26 19 48 56 52 13 41 23 17 53 47 57 21 35 31</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 27 25 29 11 15 72 6 69 33 26 19 48 56 52 13 41 23 17 53 47 57 21 35 31</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\timer_A1.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 75</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27 25 29 11 15 72 6 69 33 26 19 48 56 52 13 41 23 17 53 47 57 21 35 31</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 27 25 29 11 15 72 6 69 33 26 19 48 56 52 13 41 23 17 53 47 57 21 35 31</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\timer_A0_Pwm_Out.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 82</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 65</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27 25 29 11 15 72 6 69 33 26 19 48 56 52 13 41 23 17 53 47 57 21 35 31</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 27 25 29 11 15 72 6 69 33 26 19 48 56 52 13 41 23 17 53 47 57 21 35 31</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 3</file>
+        </tool>
+      </outputs>
+    </file>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

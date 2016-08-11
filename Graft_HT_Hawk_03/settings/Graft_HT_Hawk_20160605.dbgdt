@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Project>
+  <Desktop>
+    <Static>
+      <Debug-Log>
+        
+        
+      <PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Build</Factory></Window></Windows></PreferedWindows><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1365</ColumnWidth1></Debug-Log>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1023</ColumnWidth1><ColumnWidth2>273</ColumnWidth2><ColumnWidth3>68</ColumnWidth3></Build>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>172</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Disassembly>
+        <col-names>
+          
+          
+        <item>Disassembly</item><item>_I0</item></col-names>
+        <col-widths>
+          
+          
+        <item>500</item><item>20</item></col-widths>
+        <DisasmHistory/>
+        
+        
+      <PreferedWindows><Position>2</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><ShowCodeCoverage>0</ShowCodeCoverage><ShowInstrProfiling>0</ShowInstrProfiling></Disassembly>
+    <Register><PreferedWindows><Position>2</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows></Register><CycleCounter5xx><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><StartCounter>2</StartCounter><StopCounter>2</StopCounter><ClearCounter>2</ClearCounter><CounterMode>0</CounterMode><SaveTrigger1>0</SaveTrigger1><SaveTrigger2>0</SaveTrigger2></CycleCounter5xx></Static>
+    <Windows>
+      
+      
+      
+    <Wnd0>
+        <Tabs>
+          
+          <Tab>
+            <Identity>TabID-8942-23405</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        <Tab><Identity>TabID-4416-8884</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab></Tabs>
+        
+      <SelectedTab>1</SelectedTab></Wnd0><Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-20213-23398</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>Graft_HT_Hawk_20160605</ExpandedNode><ExpandedNode>Graft_HT_Hawk_20160605/Algorithm</ExpandedNode><ExpandedNode>Graft_HT_Hawk_20160605/Driver</ExpandedNode><ExpandedNode>Graft_HT_Hawk_20160605/Function</ExpandedNode><ExpandedNode>Graft_HT_Hawk_20160605/Modules</ExpandedNode><ExpandedNode>Graft_HT_Hawk_20160605/Time</ExpandedNode><ExpandedNode>Graft_HT_Hawk_20160605/User</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd1><Wnd2><Tabs><Tab><Identity>TabID-13607-3860</Identity><TabName>Disassembly</TabName><Factory>Disassembly</Factory><Session/></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd2></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>D:\IAR5.3\430\doc\infocenter\index.ENU.html</Filename></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\height_ctrl.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\main.c</Filename><XPos>0</XPos><YPos>57</YPos><SelStart>1197</SelStart><SelEnd>1197</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\timer.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\multirotor_control.h</Filename><XPos>0</XPos><YPos>45</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Graft_HT_Hawk_03\multirotor_control.c</Filename><XPos>0</XPos><YPos>279</YPos><SelStart>13824</SelStart><SelEnd>13824</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Graft_HT_Hawk_03\hmc5883.c</Filename><XPos>0</XPos><YPos>42</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Graft_HT_Hawk_03\height_ctrl.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Graft_HT_Hawk_03\height_ctrl.c</Filename><XPos>0</XPos><YPos>111</YPos><SelStart>3897</SelStart><SelEnd>3897</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Graft_HT_Hawk_03\main.c</Filename><XPos>0</XPos><YPos>77</YPos><SelStart>1143</SelStart><SelEnd>1143</SelEnd></Tab><ActiveTab>9</ActiveTab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-00fb7be8><key>iaridepm.enu1</key></Toolbar-00fb7be8></Sizes></Row0><Row1><Sizes><Toolbar-242dd218><key>debuggergui.enu1</key></Toolbar-242dd218></Sizes></Row1><Row2><Sizes><Toolbar-242dd300><key>430fet1</key></Toolbar-242dd300></Sizes></Row2><Row3><Sizes/></Row3></Top><Left><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>768</Bottom><Right>263</Right><x>-2</x><y>-2</y><xscreen>3</xscreen><yscreen>1</yscreen><sizeHorzCX>1563</sizeHorzCX><sizeHorzCY>1002</sizeHorzCY><sizeVertCX>138021</sizeVertCX><sizeVertCY>771543</sizeVertCY></Rect></Wnd1></Sizes></Row0></Left><Right><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>768</Bottom><Right>118</Right><x>-2</x><y>-2</y><xscreen>42</xscreen><yscreen>46</yscreen><sizeHorzCX>21875</sizeHorzCX><sizeHorzCY>46092</sizeHorzCY><sizeVertCX>62500</sizeVertCX><sizeVertCY>771543</sizeVertCY></Rect></Wnd2></Sizes></Row0></Right><Bottom><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>137</Bottom><Right>1922</Right><x>-2</x><y>-2</y><xscreen>1924</xscreen><yscreen>139</yscreen><sizeHorzCX>1002083</sizeHorzCX><sizeHorzCY>139279</sizeHorzCY><sizeVertCX>1563</sizeVertCX><sizeVertCY>1002</sizeVertCY></Rect></Wnd0></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Project>
+
+
