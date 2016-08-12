@@ -80,20 +80,20 @@ void Calculate_Target(void)
    
     //printf("RC_Data.YAW=%d\r\n", RC_Data.YAW);
     //目标航向控制。当油门大于最小检查值时，认为用户希望起飞。那么此时的航向做为目标航向
-    if(RC_Data.THROTTLE > 1100 ) 
-    {
-        if(flag.LockYaw != 1)
-        {  
-            flag.LockYaw = 1;
-            Target.Yaw = IMU.Yaw; //将当前的航向做为目标航向
-        }
-    }
-    else 
-    {
-        flag.LockYaw = 0;	
-        Target.Yaw = IMU.Yaw;
-        
-    } 
+//    if(RC_Data.THROTTLE > 1050  ) 
+//    {
+//        if(flag.LockYaw != 1)
+//        {  
+//            flag.LockYaw = 1;
+//            Target.Yaw = IMU.Yaw; //将当前的航向做为目标航向
+//        }
+//    }
+//    else 
+//    {
+//        flag.LockYaw = 0;	
+//        Target.Yaw = IMU.Yaw;
+//        
+//    } 
     
 	//航向在中点设置一个死区，好处是手操作时忽略小动作
 	if((RC_Data.YAW > 1550)||(RC_Data.YAW < 1450))
@@ -279,6 +279,20 @@ void Motor_Conter(void)
     {
         if(Normal_Mode == Control_Mode)
         {
+            if(RC_Data.THROTTLE > 1050  ) 
+            {
+                if(flag.LockYaw != 1)
+                {  
+                    flag.LockYaw = 1;
+                    Target.Yaw = IMU.Yaw; //将当前的航向做为目标航向
+                }
+            }
+            else 
+            {
+                flag.LockYaw = 0;	
+                Target.Yaw = IMU.Yaw;       
+            } 
+            
             if(RC_Data.THROTTLE > (1100) && IMU.Roll > -60 && IMU.Roll <60 && IMU.Pitch  > -60 && IMU.Pitch  <60) 
             {
                 date_throttle1	= (RC_Data.THROTTLE);///cos(IMU.Roll/RtA)/cos(IMU.Pitch/RtA);
@@ -327,7 +341,13 @@ void Motor_Conter(void)
         
         if(Control_Mode == Height_Mode)
         {
-            printf("date_throttle2=%d\r\n", date_throttle2);
+            //            printf("date_throttle2=%d\r\n", date_throttle2);
+            if(flag.LockYaw != 1)
+            {  
+                flag.LockYaw = 1;
+                Target.Yaw = IMU.Yaw; //将当前的航向做为目标航向
+            }
+            
             if(Fly_Mode == One_Key_Up)
             {
                 if(0 == Control_Thr_Up_F)//油门递增
@@ -337,21 +357,13 @@ void Motor_Conter(void)
             }
             
             if(Fly_Mode == One_Key_Down)
-            {
-//                if(0 == Control_Thr_Down_F)
-//                {
-                    Height_Control_Thr_Down();
-//                }
-//                else
-//                {
-////                    moto_STOP();
-//                }
-                
+            {   
+                Height_Control_Thr_Down();
             }
             
             if(IMU.Roll > -60 && IMU.Roll <60 && IMU.Pitch  > -60 && IMU.Pitch  <60) 
             {
-  
+                
                 US100_CONTROL(HEIGHT);//定高1.1m  
                 
                 date_THROTTLE_US_100 = (int)(date_throttle2 + THR_Lock);
@@ -406,7 +418,6 @@ void Motor_Conter(void)
                 moto_STOP();
             }
         }
-
     }
     else
     {
@@ -415,6 +426,8 @@ void Motor_Conter(void)
          Control_Thr_Up_F = 0;
          Control_Thr_Down_F = 0;
          date_throttle2 = 950;
+         flag.LockYaw = 0;	
+         Target.Yaw = IMU.Yaw;       
     }
 
 }

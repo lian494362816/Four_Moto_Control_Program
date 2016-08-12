@@ -6,7 +6,7 @@
 #define RC_Data_Pitch_Offset 1511
 #define HEIGHT 1.1f
 #define INCREASE_NUM 3 //定高模式下 每次变化的油门值
-#define THR_NUM  3    //定高模式下 油门变化的周期: 定时周期 * THR_NUM
+#define THR_NUM  5    //定高模式下 油门变化的周期: 定时周期 * THR_NUM
 
 
 struct _pid{
